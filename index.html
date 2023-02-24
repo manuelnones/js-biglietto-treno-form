@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo del biglietto</title>
+</head>
+
+<body style="background-color: darkred;color: white;">
+    <h1 style="text-align: center;">Calcola prezzo del biglietto</h1>
+    <div style="text-align: center;">
+        <input type="text" id="age" placeholder="Quanti anni hai?">
+        <input type="text" id="km" placeholder="Km da percorrere">
+        <button id="btn">Calcola prezzo</button>
+    </div>
+
+    <hr>
+
+    <div id="ticket" style="display: none; text-align: center; background-color: brown;">
+        <table style="margin: auto;">
+            <thead>
+                <th style="width: 200px;">km del viaggio</th>
+                <th style="width: 200px;">Età dell utente</th>
+                <th style="width: 200px;">Sconto applicato</th>
+                <th style="width: 200px;">Prezzo del biglietto</th>
+            </thead>
+            <tbody>
+                <td id="travelkm"></td>
+                <td id="ageuser"></td>
+                <td id="discount"></td>
+                <td id="price"></td>
+            </tbody>
+        </table>
+    </div>
+    <script type="text/Javascript" src="JS/script.js"></script>
+</body>
+
+</html>
